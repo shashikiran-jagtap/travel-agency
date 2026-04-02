@@ -1,0 +1,243 @@
+@media screen and (max-width: 1226px) {
+  .offers {
+    width: 80%;
+  }
+  header {
+    width: 80%;
+  }
+  .destination {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  header .trip-box .search-box {
+    width: 70%;
+  }
+  header .trip-box {
+    width: 96%;
+  }
+  header .trip-box .travel-box .cards {
+    overflow: auto;
+  }
+  header .trip-box .travel-box .cards .card {
+    min-width: 220px;
+    margin: 20px;
+  }
+  .offers {
+    width: 96%;
+  }
+  .destination {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 796px) {
+  header .trip-box .search-box {
+    width: 95%;
+  }
+
+  header .trip-box .search-box .card {
+    margin-right: 4px;
+  }
+  header .trip-box {
+    width: 96%;
+  }
+  .offers .cards {
+    padding: 20px;
+  }
+  .destination {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  header .trip-box .search-box {
+    width: 95%;
+  }
+  header .trip-box .search-box .card {
+    width: 125px;
+  }
+  .destination {
+    width: 85%;
+  }
+  header nav ul {
+    position: absolute;
+    width: 100px;
+    height: auto;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px grey;
+    justify-content: center;
+    top: -100%;
+    right: 30%;
+    transition: 0.4s linear;
+    z-index: 999999999999999;
+    padding: 10px 20px;
+  }
+
+  /* javascript class */
+  header nav .ul_active {
+    top: 0;
+  }
+  header nav ul li {
+    padding: 8px 0px;
+    text-align: center;
+  }
+  header nav .bi-three-dots {
+    display: unset;
+  }
+  .offers {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 666px) {
+  header .trip-box .search-box {
+    width: 95%;
+  }
+  header .trip-box .search-box .card {
+    width: 125px;
+    margin-right: 0px;
+  }
+  header .trip-box .search-box input[type="button"] {
+    padding: 8px 8px;
+  }
+  .offers {
+    width: 90%;
+  }
+  .destination {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  header .content .cont-box {
+    width: 400px;
+  }
+  header .content .cont-box button {
+    margin-top: 0px;
+    padding: 5px 10px;
+    border-radius: 15px;
+  }
+  header .trip-box .search-box .card input {
+    margin-top: 3px;
+    padding: 5px 0px;
+    font-size: 12px;
+  }
+  header .trip-box .search-box .card h4 {
+    font-size: 15px;
+  }
+  header .trip-box .search-box input[type="button"] {
+    position: absolute;
+    right: 10px;
+    bottom: -30px;
+}
+
+  header .content .cont-box p {
+    color: rgb(15, 16, 16);
+  }
+  header .content .cont-box h1 {
+    line-height: 35px;
+  }
+  header .trip-box .search-box {
+    width: 90%;
+  }
+  header .trip-box .search-box .card {
+    width: 125px;
+    margin-right: 0px;
+  }
+  .offers p {
+    margin: 30px;
+  }
+  header .trip-box .travel-box .cards .card {
+    min-width: 180px;
+    margin: 10px;
+  }
+  header .trip-box .travel-box .cards .card .btn-city a {
+    padding: 5px 10px;
+    font-size: 10px;
+  }
+  .offers {
+    margin-top: 140px;
+  }
+  .offers .cards .card {
+    width: 220px;
+    height: 400px;
+    margin-left: 100px;
+  }
+
+  .destination {
+    width: 100%;
+    flex-direction: column-reverse;
+}
+.destination .dest-box h4 {
+    font-size: 18px;
+    line-height: 20px;
+}
+footer {
+    width: 90%;
+}
+}
+
+@media screen and (max-width: 480px) {
+ header .content .cont-box {
+    width: 335px;
+}
+  header .content .cont-box button {
+    margin-top: 0px;
+    padding: 5px 10px;
+    border-radius: 15px;
+  }
+  header .trip-box .search-box .card input {
+    margin-top: 3px;
+    padding: 5px 0px;
+    font-size: 9px;
+  }
+  header .trip-box .search-box .card h4 {
+    font-size: 13px;
+  }
+  header .trip-box .search-box input[type="button"] {
+    padding: 5px 5px;
+  }
+  
+  header .content .cont-box p {
+    color: rgb(15, 16, 16);
+  }
+  header .content .cont-box h1 {
+    line-height: 35px;
+  }
+  header .trip-box .search-box {
+    width: 85%;
+  }
+  header .trip-box .search-box .card {
+    width: 80px;
+    margin-right: 20px;
+}
+  .offers p {
+    margin: 30px;
+  }
+  header .trip-box .travel-box .cards .card {
+    min-width: 180px;
+    margin: 10px;
+  }
+  header .trip-box .travel-box .cards .card .btn-city a {
+    padding: 5px 10px;
+    font-size: 10px;
+  }
+  .offers {
+    margin-top: 140px;
+  }
+  .offers .cards .card {
+    width: 220px;
+    height: 400px;
+    margin-left: 100px;
+  }
+  .destination {
+    width: 98%;
+}
+footer{
+    width: 90%;
+}
+}
